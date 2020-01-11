@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 25px;
+  }
+  
+  
+  .Box1 {
+    width: 100%;
+    border: 3px solid black;
+    padding: 10px;
+    box-sizing: border-box ;
+  }
+  
+  .Vertical {
+    height: 150px;
+    width: 50px;
+    background-color: rgba(128, 0, 128, 0.473);
+    display: inline-block;
+  }
+  .Horizontal {
+    height: 185px;
+    width: 400px;
+    display: inline-block;
+    background-color: green;
+    margin: 0 50px;
+  }
+  .Circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: skyblue;
+    display: inline-block;
+  }
+  
+  .Box2 {
+    width: 100%;
+    border: 3px dotted black;
+    padding: 50px;
+    box-sizing: border-box ;
+    margin-top: 25px; 
+  }
+  
+  .Innerbox {
+    width: 100%;
+    height: 200px;
+    background-color: lemonchiffon;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .Box3 {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  }
+  
+  h1 {
+    width: 100%;
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
+  }
